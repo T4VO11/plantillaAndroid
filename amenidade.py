@@ -1,7 +1,7 @@
 import flet as ft
 from controller import Controlador
 
-uri = "mongodb+srv://gdltech:gdltech12345@cluster0.7lopmuz.mongodb.net/?appName=Cluster0&retryWrites=true&w=majority"
+uri = "mongouri"
 DATABASE_NAME = "condominios"
 COLLECTION_NAME = "reservaciones"
 
@@ -33,3 +33,4 @@ class Amenidadevista:
             spacing=15
             )
         )
+
