@@ -1,7 +1,7 @@
 import pymongo
 import flet as ft
 
-uri = "mongodb+srv://gdltech:gdltech12345@cluster0.7lopmuz.mongodb.net/?appName=Cluster0&retryWrites=true&w=majority"
+uri = "mongouri"
 DATABASE_NAME = "condominios"
 COLLECTION_NAME = "usuarios"
 
@@ -76,3 +76,4 @@ class Controlador:
         from login import Loginvista # Importación local
         self.page.clean()
         Loginvista(self.page)
+
